@@ -6,7 +6,7 @@ Assuming `docker` and `docker-compose` are installed:
 
 Build the image
 ```shell
-$ docker build -t linagora/janus-gateway .
+$ docker build -t hjwhang/janus-gateway .
 ```
 
 Run the container
@@ -23,4 +23,3 @@ Where ports:
   - **10000-10200/udp**: Used during session establishment
 
 
-Edited [from this repo](https://github.com/linagora/docker-janus-gateway)
